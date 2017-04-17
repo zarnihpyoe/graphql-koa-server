@@ -1,0 +1,38 @@
+[
+  {
+    "authors" : [ "Jojo Moyes" ],
+    "category" : "810",
+    "createdAt" : 1491807119193,
+    "isbn" : "9780718157838",
+    "publishedDate" : "2012-01-05",
+    "publisher" : "Penguin Books Limited",
+    "source" : "",
+    "subtitle" : "",
+    "thumbnail" : "http://books.google.com/books/content?id=8GNA-OzYFuwC&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71aJJG5Mn4sT0z6M1m-SdLSeuOtNL4VfwJq1UWBQmBCeYe2-WR8El4rhiAqa0pLkuunS0ckS_OdrERHse24hLhOnUwyg3Ajt3cEyogIKW_dii8hRFRZ3566gNaxF8m9YN7a8yep&source=gbs_api",
+    "title" : "Me Before You"
+  },
+  {
+    "authors" : [ "Dan Brown" ],
+    "category" : "810",
+    "createdAt" : 1491807119193,
+    "isbn" : "9780552149525",
+    "publishedDate" : "2010",
+    "publisher" : "Corgi",
+    "source" : "",
+    "subtitle" : "",
+    "thumbnail" : "",
+    "title" : "The Lost Symbol"
+  },
+  {
+    "authors" : [ "Charles Dickens" ],
+    "category" : "820",
+    "createdAt" : 1491807119193,
+    "isbn" : "9781907176999",
+    "publishedDate" : "2012-01-31",
+    "publisher" : "Transatlantic Press",
+    "source" : "",
+    "subtitle" : "",
+    "thumbnail" : "http://books.google.com/books/content?id=lPFoPwAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70FyOBMIVohVz1pjr8HUfGlWreo0ZYC8TF3JPFvFFdGp7TjotHBFIawPD8i7qDCWo-9C9Be0nGwPQYZQkuNpZe0jM8yElDPTQS-7QnW74eD8S45D6K1xmXveAjQzCNghXRDLgdQ&source=gbs_api",
+    "title" : "Great Expectations"
+  }
+]

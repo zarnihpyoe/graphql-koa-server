@@ -1,15 +1,15 @@
+import seed from './data.json'
 
-const books = [
-  { isbn: "9780718157838", title: "Me Before You" },
-  { isbn: "9780718157838", title: "Me Before You" },
-  { isbn: "9780718157838", title: "Me Before You" },
-]
+const data = seed
 
 const resolverFunctions = {
   Query: {
     books() {
-      return books
+      return data
     },
+    book(_, { isbn }) {
+      return data.find(book => book.isbn === isbn)
+    }
   },
 }
 

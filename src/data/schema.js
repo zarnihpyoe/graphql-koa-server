@@ -17,6 +17,7 @@ type Book {
 # the schema allows the following query:
 type Query {
   books: [Book]
+  book(isbn: String!): Book
 }
 `
 

@@ -1,0 +1,25 @@
+{
+  "name": "graphql-koa-server",
+  "version": "1.0.0",
+  "repository": "https://github.com/zarniphyo/graphql-koa-server.git",
+  "author": "Zarni Phyo <zarniphyo95@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "graphql": "^0.9.3",
+    "graphql-server-koa": "^0.7.1",
+    "graphql-tools": "^0.11.0",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.1.1"
+  },
+  "scripts": {
+    "start": "nodemon src/server.js --exec babel-node",
+    "build": "babel src -d dist",
+    "serve": "node dist/server.js"
+  }
+}

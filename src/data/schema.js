@@ -19,6 +19,21 @@ type Query {
   books: [Book]
   book(isbn: String!): Book
 }
+
+#the schema allows the following mutation:
+type Mutation {
+  addBook(
+    isbn: String!
+    title: String!
+    subtitle: String
+    authors: [String!]!
+    publisher: String!
+    publishedDate: String
+    category: String!
+    thumbnail: String
+    source: String
+  ) : Book
+}
 `
 
 export default makeExecutableSchema({

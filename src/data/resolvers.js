@@ -11,6 +11,12 @@ const resolverFunctions = {
       return data.find(book => book.isbn === isbn)
     }
   },
+  Mutation: {
+    addBook(_, args) {
+      data.push(args)
+      return args
+    }
+  }
 }
 
 export default resolverFunctions
